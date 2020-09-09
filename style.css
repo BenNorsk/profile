@@ -1,0 +1,220 @@
+
+
+h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: white;
+  /*color: rgb(30,30,30);*/
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Kumbh Sans', sans-serif;
+  /*color: rgb(30,30,30);*/
+  font-size: 20px;
+  text-align: center;
+
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*color: rgb(50, 50, 50);*/
+  text-align: center;
+}
+
+a {
+  color: #1D2D50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1E5F74;
+}
+
+#ul-links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+}
+
+
+
+#ul-links > li {
+  padding: 0px;
+  margin: 0 auto;
+  background-color: none;
+}
+
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(200, 200, 200, 0.3);
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 1%;
+}
+
+.round-pic {
+  border-radius: 50%;
+}
+
+.fab {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 40px;
+  background-color: none;
+}
+
+.avatar-pic {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcome {
+  font-size: 20px;
+}
+
+#button {
+  width: 250px;
+  background-color: rgba(30,95,116,0.7);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#button:hover {
+  background-color: #1E5F74;
+}
+
+#all-links {
+  box-shadow: none;
+  width: 600px;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: rgba(0,0,0,0.0);
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 15%;
+  }
+
+  .card {
+    width: 270px;
+    /*margin: 30 auto;*/
+  }
+
+  .all-links {
+    width: 100px;
+    background-color: none;
+
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 350px;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 15%;
+  }
+
+  .card {
+    width: 270px;
+    /*margin: 30 auto;*/
+  }
+
+  .all-links {
+    width: 100px;
+    background-color: none;
+
+  }
+
+  #ul-links {
+    width: 100px;
+  }
+
+  #ul-links > li {
+  padding: 0px;
+  margin: 0 20px;
+}
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+}
+
+/* Here the nonesense starts */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
